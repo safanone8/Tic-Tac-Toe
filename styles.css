@@ -111,3 +111,30 @@ h1{
 .hide{
     display: none;
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .box {
+        height: 22vmin;
+        width: 22vmin;
+        font-size: 6vmin;
+    }
+
+    .reset-btn, .new-btn {
+        padding: 1.5rem 3rem;
+        font-size: 1.75rem;
+    }
+
+    .msg {
+        font-size: 6vmin;
+    }
+
+    .msg-container {
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+}
