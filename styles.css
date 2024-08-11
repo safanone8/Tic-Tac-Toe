@@ -118,12 +118,6 @@ h1{
         font-size: 2rem;
     }
 
-    .box {
-        height: 22vmin;
-        width: 22vmin;
-        font-size: 6vmin;
-    }
-
     .reset-btn, .new-btn {
         padding: 1.5rem 3rem;
         font-size: 1.75rem;
